@@ -167,3 +167,27 @@ hr{
   border-color: #ffffff38;
   
 }
+
+.outras{
+  margin-top: 10px;
+  margin-left: -100px;
+}
+
+.outras2{
+  margin-top: 10px;
+  margin-left: 10px;
+  float: right;
+}
+
+
+#img-left{
+  float: left;
+}
+
+#titulo-outras{
+  margin-top: 10px;
+}
+
+#conteudo-outras{
+  margin-top: 10px;
+}
