@@ -1,0 +1,41 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+body{
+    background-color: hsl(36, 100%, 99%);
+}
+
+header{
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.logo{
+    width: 40%;
+    float: left;
+}
+
+.nav-bar{
+    width: auto;
+    float: right;
+}
+
+ul{
+  
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    
+}
+
+li{
+    float: left;
+}
+
+li a {
+    display: block;
+    color: hsl(233, 8%, 79%);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
