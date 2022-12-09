@@ -47,6 +47,14 @@ li a {
     color: hsl(5, 85%, 63%);
   }
 
+  .dropbtn{
+    display: none;
+  }
+
+  .close{
+    display: none;
+  }
+
   /* Container*/
 .item1 { grid-area: header; background-color: rgba(255, 255, 255, 0.8);}
 .item2 { 
@@ -94,6 +102,10 @@ li a {
   .grid-container > div {
     /*background-color: rgba(255, 255, 255, 0.8);*/
     text-align: center;
+  }
+
+  #im1{
+    width: 800px;
   }
 
 .cartao{
@@ -223,4 +235,194 @@ hr{
 #num{
   font-size: 20px;
   color: hsl(233, 8%, 79%);
+}
+
+@media only screen and (max-device-width: 900px){
+
+  #im1{
+    max-width: 300px;
+    height: auto;
+    float: left;
+  }
+
+  .grid-container{
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    float: left;
+  }
+
+  .cartao{
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+  }
+
+  #titulo{
+    width: 200px;
+    float: left;
+    margin-left: -301px;
+    margin-top: 150px;
+  }
+
+  h1{
+    font-size: 40px;
+  }
+
+  #texto{
+    width: 200px;
+    float: left;
+    margin-top: 20px;
+    margin-left: -301px;
+    
+  }
+
+  .item3 { 
+    margin-top: 20px;
+    width: 300px;
+    background-color: hsl(240, 100%, 5%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    }
+
+    .card-news{
+      max-width: 100%;
+      margin: auto; 
+    }
+    
+    #title-news{
+      padding: 5px;
+      font-size: 20px;
+      text-align: left;
+      color: white;
+      margin-top: 10px;
+      margin-left: 15px;
+    
+    }
+    
+    #title-news:hover{
+      color: hsl(35, 77%, 62%);
+    }
+    
+    #conteudo-news{
+      padding: 5px;
+      text-align: justify;
+      color: hsl(233, 8%, 79%);
+      margin-top: 10px;
+      margin-left: 15px;
+      
+    }
+    
+    #conteudo-news p{
+      font-size: 16px;
+      color: hsl(236, 13%, 42%);
+      font-weight: 400;
+      max-width: 90%;
+    }
+
+    #t1{
+      margin-top: 20px;
+      color: hsl(35, 77%, 62%);
+      font-size: 30px;
+      margin-left: -200px;
+    }
+
+    hr{
+     max-width: 90%;
+      margin-top: 10px;
+      border-color: #ffffff38;
+      
+    }
+
+    .item4 { 
+     
+      flex-direction: column;
+    }
+
+    .outras2{
+      margin-top: 0px;
+      margin-left: 10px;
+      width: 170px;
+    }
+
+    #num{
+      font-size: 15px;
+    }
+
+    #titulo-outras{
+      margin-top: 10px;
+      font-size: 16px;
+    }
+
+    #conteudo-outras p{
+      font-size: 12px;
+      
+    }
+
+     /*dropdown*/
+
+     .nav-bar{
+      width: auto;
+      position: relative;
+      display: inline-block;
+  }
+
+  li{
+    margin-top: 150px;
+    margin-bottom: -150px;
+    margin-left: 10px;
+    margin-right: 150px;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-top: -94px;
+    width: 400%;
+    height: 1740px;
+    margin-left: -90px;
+  }
+
+  .dropdown-content li a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+.dropdown-content li a:hover {background-color: #f1f1f1}
+
+.nav-bar:hover .dropdown-content {
+  display: block;
+}
+
+  .dropbtn {
+    background-color: white;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    display: block;
+  }
+
+  .close {
+    background-color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    display: block;
+    float: right;
+  }
+
 }
