@@ -43,6 +43,10 @@ li a {
     font-weight: 600;
   }
 
+  li a:hover{
+    color: hsl(5, 85%, 63%);
+  }
+
   /* Container*/
 .item1 { grid-area: header; background-color: rgba(255, 255, 255, 0.8);}
 .item2 { 
@@ -146,6 +150,10 @@ h1{
 
 }
 
+#title-news:hover{
+  color: hsl(35, 77%, 62%);
+}
+
 #conteudo-news{
   padding: 5px;
   text-align: justify;
@@ -196,6 +204,10 @@ hr{
   font-size: 22px;
   font-weight: 700;
   color: hsl(240, 100%, 5%);
+}
+
+#titulo-outras:hover{
+  color: hsl(5, 85%, 63%);
 }
 
 #conteudo-outras{
