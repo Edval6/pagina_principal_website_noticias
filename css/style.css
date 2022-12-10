@@ -3,6 +3,7 @@
 body{
     background-color: hsl(36, 100%, 99%);
     font-family: sans-serif;
+    zoom: 70%;
 }
 
 .hd{
@@ -239,6 +240,10 @@ hr{
 
 @media only screen and (max-device-width: 900px){
 
+  body{
+    zoom: 0;
+  }
+
   #im1{
     max-width: 300px;
     height: auto;
@@ -254,10 +259,11 @@ hr{
   }
 
   .cartao{
-    max-width: 400px;
+    width: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-left: 300px;
 
   }
 
@@ -278,6 +284,10 @@ hr{
     margin-top: 20px;
     margin-left: -301px;
     
+  }
+
+  .item2{
+    width: 400px;
   }
 
   .item3 { 
@@ -389,7 +399,7 @@ hr{
     margin-top: -94px;
     width: 400%;
     height: 1740px;
-    margin-left: -90px;
+    margin-left: -230px;
   }
 
   .dropdown-content li a {
