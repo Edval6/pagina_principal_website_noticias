@@ -244,10 +244,20 @@ hr{
     zoom: 0;
   }
 
+  p{
+    font-size: 18px;
+    height: 30px;
+  }
+
   #im1{
-    max-width: 300px;
+    max-width: 90%;
     height: auto;
     float: left;
+    margin-left: 25px;
+  }
+
+  #img-left{
+    margin-left: -40px;
   }
 
   .grid-container{
@@ -268,10 +278,10 @@ hr{
   }
 
   #titulo{
-    width: 200px;
+    width: 300px;
     float: left;
-    margin-left: -301px;
-    margin-top: 150px;
+    margin-left: -360px;
+    margin-top: 350px;
   }
 
   h1{
@@ -279,12 +289,16 @@ hr{
   }
 
   #texto{
-    width: 200px;
+    width: auto;
     float: left;
     margin-top: 20px;
-    margin-left: -301px;
+    margin-left: -360px;
     
   }
+
+  .item1{
+    width: 400px;
+}
 
   .item2{
     width: 400px;
@@ -292,7 +306,8 @@ hr{
 
   .item3 { 
     margin-top: 20px;
-    width: 300px;
+    margin-left: 15px;
+    width: 375px;
     background-color: hsl(240, 100%, 5%);
     display: flex;
     flex-direction: column;
@@ -331,28 +346,32 @@ hr{
     
     #conteudo-news p{
       font-size: 16px;
-      color: hsl(236, 13%, 42%);
+      color: hsl(233, 8%, 79%);
       font-weight: 400;
       max-width: 90%;
+      padding-bottom: 60px;
     }
 
     #t1{
       margin-top: 20px;
       color: hsl(35, 77%, 62%);
       font-size: 30px;
-      margin-left: -200px;
+      margin-left: -255px;
     }
 
     hr{
      max-width: 90%;
-      margin-top: 10px;
-      border-color: #ffffff38;
+     margin-top: 2px;
+     margin-bottom: 10px;
+     border-color: #ffffff38;
       
     }
 
     .item4 { 
      
       flex-direction: column;
+      width: 375px;
+      margin-left: 15px;
     }
 
     .outras2{
@@ -362,16 +381,18 @@ hr{
     }
 
     #num{
-      font-size: 15px;
+      font-size: 18px;
     }
 
     #titulo-outras{
       margin-top: 10px;
-      font-size: 16px;
+      font-size: 18px;
     }
 
     #conteudo-outras p{
-      font-size: 12px;
+      font-size: 15px;
+      width: 240px;
+      height: 22px;
       
     }
 
@@ -399,7 +420,7 @@ hr{
     margin-top: -94px;
     width: 400%;
     height: 1740px;
-    margin-left: -230px;
+    margin-left: -205px;
   }
 
   .dropdown-content li a {
@@ -433,6 +454,10 @@ hr{
     cursor: pointer;
     display: block;
     float: right;
+  }
+
+  .logo{
+    margin-left: 20px;
   }
 
 }
